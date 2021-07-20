@@ -32,6 +32,9 @@ mysqli_close($conn);
 
     <?php include('templates/bios.php'); ?>
 
+    <?php include('templates/bio-page.php'); ?>
+
+
     <?php include('templates/footer.php'); ?>
 
 </html>
