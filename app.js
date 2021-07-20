@@ -9,7 +9,6 @@ for(const bioLink of bioLinks) {
     bioLink.addEventListener('click', (e) => {
         //loop through bioCards 
         for(let bioCard of bioCards) {
-            console.log(bioCard.value);
             for(let bioName of bioNames) {
                 console.log(bioName);
                 if(e.target.value === bioName.textContent){ 
@@ -19,7 +18,6 @@ for(const bioLink of bioLinks) {
              }
         }
         
-        console.log(e.target.value);
     });
 }
 

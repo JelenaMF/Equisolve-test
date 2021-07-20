@@ -28,6 +28,17 @@ body, html{
     height:420px;
 }
 
+#bio_title{
+    color: #2541D4; 
+    font-size:24px;
+}
+
+#card-title {
+    color:#2541D4; 
+    font-size:14px;
+    line-height:22.4px;
+}
+
 @media screen and (max-width: 992px) {
     body, html{  
         overflow-y: auto;

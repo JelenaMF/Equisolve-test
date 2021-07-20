@@ -12,8 +12,8 @@
                     </div>
                     <div class="card-content">
                         <h3 id="card-name" class="card-title"><?php echo htmlspecialchars($bio['COL 1'])?></h3>
-                        <h6 style="color:#2541D4; font-size:14px; line-height:22.4px;"><?php echo htmlspecialchars($bio['COL 2'])?> </h6>
-                            <p class="button" value="<?php echo htmlspecialchars($bio['COL 1'])?>"id="bio-link" class='black-text'>View Bio<img src="images/vector.png"></p>
+                        <h6 id="card-title" ><?php echo htmlspecialchars($bio['COL 2'])?> </h6>
+                            <p class="button" id="bio-link" class='black-text'>View Bio<img src="images/vector.png"></p>
                     
                     </div>
                 </div>
