@@ -1,0 +1,48 @@
+body, html{
+    position:-webkit-sticky;
+    height:auto;   
+    display: grid;
+}
+
+#bio-card {
+    position: absolute; 
+    width: 1006px;
+    height:1092px; 
+    top: 572px; 
+    left:25%; 
+    background: #FFFFFF;
+    visibility: hidden;
+}
+
+#bio-card:focus {
+    background-color: rgb(230, 219, 243);
+    border-color: #3f3288;
+    transition: border-color .4s, background-color .4s;
+}
+
+#bio-img {
+    position:absolute; 
+    top:15%; 
+    width:370px; 
+    left:55%; 
+    height:420px;
+}
+
+@media screen and (max-width: 992px) {
+    body, html{  
+        overflow-y: auto;
+        overflow-x: hidden;
+       }
+    
+    #bio-card{
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body, html{
+          
+        overflow-y: auto;
+        overflow-x: hidden;
+       }
+}
