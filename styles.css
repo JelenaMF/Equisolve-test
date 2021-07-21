@@ -39,6 +39,18 @@ body, html{
     line-height:22.4px;
 }
 
+#card{
+    position:static; 
+    display:flex; 
+    flex-direction:column; 
+     width:370px; 
+     height:616px;
+}
+.card-image{
+    position: static; 
+   
+}
+
 @media screen and (max-width: 992px) {
     body, html{  
         overflow-y: auto;

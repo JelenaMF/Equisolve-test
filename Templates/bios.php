@@ -4,11 +4,11 @@
     <?php #iterate data and interpolate it to the dom
     foreach($bios as $bio){ ?>
 
-        <div  class="col s12" style="position:static; display:flex; flex-direction:column;  width:370px; height:616px;">
+        <div id="card" class="col s12" >
             <div>
                 <div class="card">
                     <div class="card-image">
-                        <img style="position: static; width:370px height:420px"  alt=" <?php echo htmlspecialchars($bio['COL 1'])?> profile image"src="<?php echo htmlspecialchars($bio['COL 4'])?>"> 
+                        <img   alt=" <?php echo htmlspecialchars($bio['COL 1'])?> profile image"src="<?php echo htmlspecialchars($bio['COL 4'])?>"> 
                     </div>
                     <div class="card-content">
                         <h3 id="card-name" class="card-title"><?php echo htmlspecialchars($bio['COL 1'])?></h3>
