@@ -13,7 +13,7 @@
                     <div class="card-content">
                         <h3 id="card-name" class="card-title"><?php echo htmlspecialchars($bio['COL 1'])?></h3>
                         <h6 id="card-title" ><?php echo htmlspecialchars($bio['COL 2'])?> </h6>
-                            <p class="button" id="bio-link" class='black-text'>View Bio<img src="images/vector.png"></p>
+                            <p class="button" name='<?php echo htmlspecialchars($bio['COL 1'])?>' id="bio-link" class='black-text'>View Bio<img src="images/vector.png"></p>
                     
                     </div>
                 </div>

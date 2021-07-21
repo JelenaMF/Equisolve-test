@@ -4,7 +4,7 @@ foreach($bios as $bio){?>
 
     <div id="bio-card">
         <div id="bio-info" class="card-content">
-            <p id="close" class="button right" onClick="exitBio()"style="font-size:14px; font-weight:900;">X</p>
+            <p id="close" class="button right" onClick="exitBio()" style="font-size:14px; font-weight:900;">X</p>
                 <div class=" left" style="position:static width:531px; align-self: stretch;flex-grow: 0; margin: 8px 0px;">
                     <h3 id="bio-name"><?php echo htmlspecialchars($bio['COL 1'])?></h3>
                     <h5 id="bio-title" ><?php echo htmlspecialchars($bio['COL 2'])?></h5>
