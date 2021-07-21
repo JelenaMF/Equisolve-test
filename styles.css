@@ -1,7 +1,27 @@
 body, html{
-    position:-webkit-sticky;
     height:auto;   
     display: grid;
+}
+
+#banner-img{
+    background-image: url(images/pagebanner-default.jpg);
+     width: 100%; 
+     height: 300px; 
+     position: relative; 
+}
+
+#banner-title {
+    position:static; 
+    flex: none; 
+    order: 0; 
+    flex-grow: 0; 
+    margin: 0px 0px; 
+    text-align: center;
+    font-size:48px; 
+    padding-top:85px; 
+    width: 1600px; 
+    height: 300px; 
+    line-height: 125%;
 }
 
 #bio-card {
@@ -28,6 +48,13 @@ body, html{
     height:420px;
 }
 
+#bio-link:hover {
+    text-decoration-line: underline;
+}
+
+#nav-links:hover {
+    text-decoration-line: underline;
+}
 #bio_title{
     color: #2541D4; 
     font-size:24px;
@@ -43,20 +70,38 @@ body, html{
     position:static; 
     display:flex; 
     flex-direction:column; 
-     width:370px; 
-     height:616px;
+    width:370px; 
+    height:616px;
 }
 .card-image{
     position: static; 
    
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     body, html{  
         overflow-y: auto;
         overflow-x: hidden;
        }
     
+       #banner-img{
+        background-image: url(images/pagebanner-default.jpg);
+         width: 100%; 
+         height: 300px; 
+         position: relative; 
+    }
+
+       #banner-title {
+        flex: none; 
+        order: 0; 
+        flex-grow: 0; 
+        margin: 0px 0px; 
+        font-size:48px; 
+        padding-top:85px; 
+        width: 1700px; 
+        height: 300px; 
+        line-height: 125%;
+    }
     #bio-card{
         left: 0%;
     }
@@ -68,4 +113,22 @@ body, html{
         overflow-y: auto;
         overflow-x: hidden;
        }
+
+       #banner-img{
+        background-image: url(images/pagebanner-default.jpg);
+         width: 100%; 
+         height: 300px; 
+         position: relative; 
+    }
+
+       #banner-title {
+        flex: none; 
+        order: 0; 
+        flex-grow: 0; 
+        margin: 0px 0px; 
+        font-size:48px; 
+        padding-top:85px; 
+        height: 300px; 
+        line-height: 125%;
+    }
 }
